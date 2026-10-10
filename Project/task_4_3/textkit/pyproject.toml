@@ -1,0 +1,16 @@
+[project]
+name = "textkit-demo"
+version = "0.1.0"
+description = "Учебный пакет: статистика текста"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.scripts]
+textkit-info = "textkit.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]

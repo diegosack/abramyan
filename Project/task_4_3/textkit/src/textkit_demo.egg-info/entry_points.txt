@@ -1,0 +1,2 @@
+[console_scripts]
+textkit-info = textkit.cli:main
